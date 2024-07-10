@@ -23,8 +23,8 @@ keywords = [
 python = "^3.7"
 requests = "^2.20"
 tqdm = "^4.58"
-click = "^7.1"
-shapely = "^1.7"
+click = "^8.1"
+shapely = "^2.0"
 python-dateutil = "^2.8"
 
 [tool.poetry.dev-dependencies]
@@ -38,8 +38,8 @@ issues = "https://github.com/yannforget/landsatxplore/issues"
 landsatxplore = "landsatxplore.cli:cli"
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 88
